@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cephalometric AI Dashboard (Placeholder)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cephalometric Landmark Detection &amp; Analysis</h1>
+    <p class="subtitle">Frontend placeholder -- to be built/integrated against the FastAPI backend.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Backend connection</h2>
+      <p>Status: <span id="status">checking...</span></p>
+      <button id="check-btn">Re-check backend</button>
+    </section>
+
+    <section class="card">
+      <h2>Planned dashboard sections</h2>
+      <ul>
+        <li>X-ray upload &amp; visualization</li>
+        <li>19-landmark overlay (draggable, for correction)</li>
+        <li>Coordinates, confidence &amp; reliability table</li>
+        <li>SNA / SNB / ANB and other cephalometric measurements</li>
+        <li>Landmark heatmap visualization</li>
+        <li>MRE / SDR / error charts</li>
+        <li>Landmark-wise error analysis</li>
+        <li>Before-vs-after correction comparison</li>
+        <li>Automated analysis report</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
